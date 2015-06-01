@@ -19,7 +19,7 @@ enjoy!
 
 code pointers:
 app is a cakephp2.x app
-interesting hand written code is to be found at following paths:
+interesting hand written code (or at least hand edited code) is to be found at following paths:
  * [Controller/ItemsController.php](Controller/ItemsController.php)
  * [View/Items/index](View/Items/index.ctp)
  * [js/post.js](js/post.js)
