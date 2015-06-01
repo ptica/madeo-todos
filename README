@@ -8,7 +8,7 @@ $ grunt
 
 $ vim Config/database.php # edit db credentials
 $ mysql -u user -p -e madeo < schema.sql
-$ apache vhost is located at Config/Vhost/local.madeo.conf
+$ apache vhost is located at [Config/Vhost/local.madeo.conf](Config/Vhost/local.madeo.conf)
 
 open http://local.madeo/users/add
 
@@ -18,6 +18,6 @@ enjoy!
 code pointers:
 app is a cakephp2.x app
 interesting hand written code is to be found at following paths:
- * Controller/ItemsController.php
- * Views/Items/*
- * js/post.js
+ * [Controller/ItemsController.php](Controller/ItemsController.php)
+ * [Views/Items/](Views/Items/)
+ * [js/post.js](js/post.js)
