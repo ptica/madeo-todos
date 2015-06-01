@@ -1,0 +1,12 @@
+Madeo TODOs app
+===============
+
+$ npm install
+$ composer install
+$ bower install
+$ grunt
+
+$ vim Config/database.php # edit db credentials
+$ apache vhost is located ad Config/Vhost/local.madeo.conf
+
+enjoy!
