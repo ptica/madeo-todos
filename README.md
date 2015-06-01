@@ -21,5 +21,5 @@ code pointers:
 app is a cakephp2.x app
 interesting hand written code is to be found at following paths:
  * [Controller/ItemsController.php](Controller/ItemsController.php)
- * [Views/Items/](Views/Items/)
+ * [Views/Items](Views/Items)
  * [js/post.js](js/post.js)
