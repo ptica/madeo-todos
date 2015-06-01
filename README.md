@@ -9,7 +9,7 @@ $ grunt
 
 $ vim Config/database.php # edit db credentials
 $ mysql -u user -p madeo < schema.sql
-$ apache vhost is located  Config/Vhost/local.madeo.conf
+$ apache vhost is located at Config/Vhost/local.madeo.conf
 ```
 
 open http://local.madeo/users/add
