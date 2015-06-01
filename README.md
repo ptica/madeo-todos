@@ -8,7 +8,7 @@ $ bower install
 $ grunt
 
 $ vim Config/database.php # edit db credentials
-$ mysql -u user -p -e madeo < schema.sql
+$ mysql -u user -p madeo < schema.sql
 $ apache vhost is located  Config/Vhost/local.madeo.conf
 ```
 
