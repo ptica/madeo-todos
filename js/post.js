@@ -1,5 +1,5 @@
 // List with handle
-Sortable.create(listWithHandle, {
+if (typeof listWithHandle !== 'undefined') Sortable.create(listWithHandle, {
     handle: '.glyphicon-move',
     animation: 150,
     // dragging ended

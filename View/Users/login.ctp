@@ -8,7 +8,7 @@
 
 <div class="col-md-12">
 	<div class="col-md-8 pull-right" style="margin-top:120px; text-align: right;">
-		<?php echo $this->Html->image('madeo-webdesign', array("style"=>"width:630px")); ?>
+		<?php echo $this->Html->image('madeo-webdesign.png', array("style"=>"width:630px")); ?>
 	</div>
 	<div class="page-header">
 		<h1>Přihlášení</h1>
