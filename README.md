@@ -10,6 +10,7 @@ $ grunt
 $ vim Config/database.php # edit db credentials
 $ mysql -u user -p madeo < schema.sql
 $ apache vhost is located at Config/Vhost/local.madeo.conf
+$ chmod -R g+w tmp/{cache,logs} # webserver should be able to write there
 ```
 
 open http://local.madeo/users/add
