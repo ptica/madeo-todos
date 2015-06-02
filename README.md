@@ -8,8 +8,9 @@ $ bower install
 $ grunt
 
 $ vim Config/database.php # edit db credentials
-$ mysql -u user -p -e madeo < schema.sql
-$ apache vhost is located  Config/Vhost/local.madeo.conf
+$ mysql -u user -p madeo < schema.sql
+$ apache vhost is located at Config/Vhost/local.madeo.conf
+$ chmod -R g+w tmp/{cache,logs} # webserver should be able to write there
 ```
 
 open http://local.madeo/users/add
@@ -19,7 +20,7 @@ enjoy!
 
 code pointers:
 app is a cakephp2.x app
-interesting hand written code is to be found at following paths:
+interesting hand written code (or at least hand edited code) is to be found at following paths:
  * [Controller/ItemsController.php](Controller/ItemsController.php)
- * [Views/Items/](Views/Items/)
+ * [View/Items/index](View/Items/index.ctp)
  * [js/post.js](js/post.js)
